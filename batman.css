@@ -1,0 +1,62 @@
+body {
+  background: url('./images/the-bat.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Makes the background image fixed in place */
+}
+
+.main-container {
+  background: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav {
+  background: linear-gradient(245deg, hsla(28, 96%, 29%, 0.792), hsl(248, 94%, 7%));
+}
+
+nav p {
+  color: #140101;
+}
+
+.theme-switcher button {
+  color: #fff;
+}
+
+#theme-toggle,
+#theme-toggle-back {
+  background-image: url('./images/btrng.png');
+  background-color: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#theme-icon,
+#theme-icon-back {
+  width: 30px;
+}
+
+input {
+  background-color: rgba(27, 1, 1, 0.639);
+  color: #140101;
+  border-bottom: 2px solid #555;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  background: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #180303;
+}
+
+.signs {
+  background: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.signs:hover, button:hover {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  cursor: pointer;
+}

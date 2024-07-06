@@ -1,0 +1,85 @@
+body {
+  background: url('./images/deadpool.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background: none; /* Semi-transparent orange background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav {
+  background: linear-gradient(245deg, rgba(255, 0, 0, 0.525), rgba(0, 0, 0, 0.8)); /* Red to black gradient */
+}
+nav p{
+  color:#7d6f1c;;
+}
+
+.theme-switcher button {
+  color: #fff;
+}
+
+
+.theme-switcher button {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#theme-toggle,
+#theme-toggle-back {
+  background-image: url('./images/deadpool-icon.png');
+  background-color: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#theme-icon,
+#theme-icon-back {
+  width: 30px;
+}
+
+input {
+  background-color: rgba(93, 8, 8, 0.913); /* Light grey background */
+  color: #4d4207; /* Black text */
+  border-bottom: 2px solid #290ed8; /* Deep orange border */
+}
+
+/* Updated button styles */
+button {
+  background: none;
+  /* background: linear-gradient(145deg, rgba(120, 4, 4, 0.8), rgba(0, 0, 0, 0.8)); Red to black gradient */
+  color: #4d4207;
+}
+
+button:hover {
+  background: linear-gradient(145deg, rgba(120, 4, 4, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+button:active {
+  background: #e03c00; /* Darker orange */
+}
+
+
+.signs {
+  background: linear-gradient(245deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8)); 
+}
+
+.signs:hover, button:hover{
+  background: linear-gradient(245deg, rgba(120, 4, 4, 0.8), rgba(0, 0, 0, 0.8));
+  cursor: pointer;
+}
+
+#equals {
+  background: linear-gradient(to right, black, red);
+}
+
+

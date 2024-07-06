@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calculator</title>
+  <link id="theme-link" rel="stylesheet" href="default-theme.css"> <!-- Default theme -->
+  <link rel="stylesheet" href="style.css"> <!-- General styles -->
+</head>
+
+<body>
+  <div class="main-container">
+    <nav>
+      <div class="theme-switcher-left">
+        <button id="theme-toggle-back" title="Toggle Backward Theme">
+          <span id="theme-icon-back"></span>
+        </button>
+      </div>
+      <p>Calculator</p>
+      <div class="theme-switcher-right">
+        <button id="theme-toggle" title="Toggle Forward Theme">
+          <span id="theme-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <section>
+      <div id="txt-box">
+        <input type="text" id="display" placeholder="0" readonly>
+        <p></p>
+      </div>
+    </section>
+    <section class="btn_section">
+      <div class="first_row">
+        <button class="signs" id="clear">C</button>
+        <button class="signs" id="backspace">⌫</button>
+        <button class="signs" id="parentheses">()</button>
+        <button class="signs" id="add">+</button>
+      </div>
+      <div class="second_row">
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="signs" id="subtract">-</button>
+      </div>
+      <div class="third_row">
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="signs" id="multiply">×</button>
+      </div>
+      <div class="fourth_row">
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="signs" id="divide">÷</button>
+      </div>
+      <div class="fifth_row">
+        <button class="signs" id="decimal">.</button>
+        <button class="number">0</button>
+        <button class="signs" id="percent">%</button>
+        <button class="signs" id="equals">=</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="calculator.js"></script>
+  <script src="theme-switcher.js"></script>
+</body>
+
+</html>

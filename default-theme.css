@@ -1,0 +1,68 @@
+/* Setting the background to the provided image */
+body {
+  background: url('./images/smiley.png') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Makes the background image fixed in place */
+}
+
+/* Main container styling */
+.main-container {
+  background: rgba(255, 223, 0, 0.3); /* Adding a light transparent yellow background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Keeping the box-shadow */
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Navbar styling */
+nav {
+  background: linear-gradient(245deg, hsla(48, 94%, 25%, 0.8), hsla(60, 100%, 50%, 0.427)); /* Gradient from yellow to light yellow */
+}
+
+nav p {
+  color: #333; /* Dark gray text for contrast */
+}
+
+/* Theme switcher button styling */
+.theme-switcher button {
+  color: #fff;
+}
+
+#theme-toggle,
+#theme-toggle-back {
+  background-image: url('./images/sun.png');
+  background-color: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#theme-icon,
+#theme-icon-back {
+  width: 30px;
+}
+
+/* Input field styling */
+input {
+  background-color: rgba(255, 223, 0, 0.5); /* Transparent yellow background */
+  color: #333; /* Dark gray text */
+  border-bottom: 2px solid #11e030; /* Golden border */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button styling */
+button {
+  background: linear-gradient(245deg, rgba(189, 225, 5, 0.525), rgba(5, 82, 10, 0.8));  /* Slightly transparent yellow background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #333; /* Dark gray text */
+}
+
+.signs {
+  background: linear-gradient(245deg, rgba(225, 170, 5, 0.806), rgba(64, 152, 8, 0.8)); /* Same styling for signs */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.signs:hover, button:hover {
+  background: linear-gradient(90deg, rgba(255,223,0,1) 0%, rgba(255,165,0,1) 50%, rgba(255,69,0,1) 100%); /* Gradient from yellow to orange to red */
+  cursor: pointer;
+}

@@ -1,0 +1,171 @@
+body {
+  background: url('./images/peakpx.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  /* Ensures the body takes up the full viewport height */
+  margin: 0;
+  /* Removes default margin */
+  padding: 0;
+  /* Removes default padding */
+}
+
+
+.main-container {
+  background: #f0faff36;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  /* Light icy blue background */
+}
+
+nav {
+  background: linear-gradient(245deg, hsla(207, 89%, 53%, 0.792), hsl(249, 44%, 83%));
+}
+
+.theme-switcher button {
+  color: #f0faff;
+}
+
+#theme-toggle,
+#theme-toggle-back {
+  background-image: url('./images/elsa.png');
+  background-color: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#theme-icon,
+#theme-icon-back {
+  width: 30px;
+}
+
+input {
+  background-color: rgba(192, 73, 228, 0.523);
+  color: #005a96;
+  /* Dark blue text */
+  border-bottom: 2px solid #0072ff;
+  /* Deep blue border */
+}
+
+/* Updated button styles */
+button {
+  background: linear-gradient(145deg, hsla(41, 93%, 32%, 0.3), hsl(213, 100%, 50%));
+  /* Icy blue gradient */
+  color: #fff;
+}
+
+button:hover {
+  background: #00bfff;
+  cursor:pointer;
+  /* Deep sky blue */
+}
+
+button:active {
+  background: #1e90ff;
+  /* Dodger blue */
+}
+
+button#clear {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  /* Dodger blue */
+  color: #fff;
+}
+
+button#clear:hover {
+  background: #1c86ee;
+  /* Slightly darker blue */
+}
+
+button#backspace {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#backspace:hover {
+  background: #1e90ff;
+  /* Dodger blue */
+}
+
+button#parentheses {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#parentheses:hover {
+  background: #005b96;
+  /* Slightly darker blue */
+}
+
+button#add {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#add:hover {
+  background: #00bfff;
+  /* Deep sky blue */
+}
+
+button#subtract {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#subtract:hover {
+  background: #005b96;
+  /* Slightly darker blue */
+}
+
+button#multiply {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#multiply:hover {
+  background: #1c86ee;
+  /* Slightly darker blue */
+}
+
+button#divide {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#divide:hover {
+  background: #1e90ff;
+  /* Dodger blue */
+}
+
+button#decimal {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#decimal:hover {
+  background: #005b96;
+  /* Slightly darker blue */
+}
+
+button#percent {
+  background: linear-gradient(145deg, hsla(270, 86%, 25%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+}
+
+button#percent:hover {
+  background: #00bfff;
+  /* Deep sky blue */
+}
+
+button#equals {
+  background: linear-gradient(245deg, hsla(207, 89%, 53%, 0.792), hsl(249, 44%, 83%));
+  color: #fff;
+  width: 100%;
+  grid-column: span 4;
+  height: 50px;
+}
+
+button#equals:hover {
+  background: #005b96;
+  /* Slightly darker blue */
+}
